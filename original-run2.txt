@@ -1,0 +1,52 @@
+### CMD: python --version
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+### EXIT: 9009
+
+### CMD: pip --version
+'pip' is not recognized as an internal or external command,
+operable program or batch file.
+### EXIT: 1
+
+### CMD: where python
+C:\Users\runneradmin\AppData\Local\Microsoft\WindowsApps\python.exe
+### EXIT: 0
+
+### CMD: py --version
+Python 3.14.8
+### EXIT: 0
+
+### CMD: py -c "import sys; print(sys.executable)"
+C:\hostedtoolcache\windows\Python\3.14.8\x64\python.exe
+### EXIT: 0
+
+### CMD: set "PATH=%PATH%;C:\hostedtoolcache\windows\Python\3.14.8\x64"
+### EXIT: 0
+
+### CMD: python --version
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+### EXIT: 9009
+
+### CMD: where python
+C:\Users\runneradmin\AppData\Local\Microsoft\WindowsApps\python.exe
+C:\hostedtoolcache\windows\Python\3.14.8\x64\python.exe
+### EXIT: 0
+
+### CMD: set "PATH=C:\hostedtoolcache\windows\Python\3.14.8\x64;%PATH%"
+### EXIT: 0
+
+### CMD: python --version
+Python 3.14.8
+### EXIT: 0
+
+### CMD: pip --version
+'pip' is not recognized as an internal or external command,
+operable program or batch file.
+### EXIT: 1
+
+### CMD: set "PATH=C:\hostedtoolcache\windows\Python\3.14.8\x64\Scripts;%PATH%"
+### EXIT: 0
+
+### CMD: pip --version
+pip 26.2.1 from C:\hostedtoolcache\windows\Python\3.14.8\x64\Lib\site-packages\pip (python 3.14)
+
+### EXIT: 0
