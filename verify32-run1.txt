@@ -1,0 +1,13 @@
+PASS: existing Python found without installing
+PASS: recording alias exists
+PASS: prepared session reproduces alias failure
+PASS: prepared search finds only alias
+PASS: appending still reaches alias
+PASS: appended folder follows alias
+PASS: prepending starts installed Python
+PASS: selected interpreter is expected one
+PASS: standalone pip still absent before Scripts
+PASS: Scripts makes pip command available in prepared session
+PASS: child PATH edit does not change parent process
+PASS: original process PATH restored
+PASS: all 12 critical checks passed
